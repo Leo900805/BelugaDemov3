@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="Item" parent="">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Item.FrameLayout">
+        <item name="android:background">@color/mb_gray</item>
+    </style>
+    
+   
+    <style name="Item.service_open_btn">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/service_icon</item>
+    </style>
+    
+    <style name="Item.service_left_btn">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/left</item>
+    </style>
+    
+    <style name="Item.service_right_btn">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/right</item>
+    </style>
+    
+    <style name="Item.service_bar">
+        <item name="android:background">@drawable/select_bar</item>
+    </style>
+    
+    <style name="Item.circle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">@drawable/circle</item>
+    </style>
+    
+    
+    <style name="Item.Tumblr">
+        <item name="android:layout_width">@dimen/item_circle_size_tumblr</item>
+        <item name="android:layout_height">@dimen/item_circle_size_tumblr</item>
+        <item name="android:textSize">@dimen/item_font_size_tumblr</item>
+        <item name="android:textColor">@color/tumblr_primary</item>
+    </style>
+    
+
+</resources>

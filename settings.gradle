@@ -1,0 +1,3 @@
+include ':app', ':google-play-services_lib', ':unityandroidport'
+include ':facebook'
+include ':belugaSDK'

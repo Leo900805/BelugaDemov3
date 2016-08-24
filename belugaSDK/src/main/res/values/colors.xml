@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mb_white">#ffffff</color>
+    <color name="mb_blue">#ff0099cc</color>
+    <color name="mb_blue_dark">#ff00719b</color>
+    <color name="mb_purple">#ffaa66cc</color>
+    <color name="mb_purple_dark">#ff8855aa</color>
+    <color name="mb_green">#ff99cc00</color>
+    <color name="mb_green_dark">#4c898e</color>
+    <color name="mb_green_genoa">#20534e</color>
+
+    <color name="mb_red">#ffff4444</color>
+    <color name="mb_red_dark">#ffcd3a3a</color>
+    <color name="mb_gray">#ffdedede</color>
+
+
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="green_light">#8BC34A</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="scrim">#42000000</color>
+    <color name="white">#F5F5F5</color>
+    
+    <color name="white_smoke">#FFFFFF</color>
+    
+	<color name="primary">#03A9F4</color>
+  	<color name="primary_dark">#0288D1</color>
+  	<color name="primary_light">#B3E5FC</color>
+ 	 
+  	<color name="primary_text">#212121</color>
+  	<color name="secondary_text">#727272</color>
+  	<color name="icons">#FFFFFF</color>
+  	<color name="divider">#B6B6B6</color>
+  	
+  	<color name="ColorPrimary">#FF5722</color>
+  	<color name="accent">#FF5252</color>
+  	
+  	<color name="pink">#FF4081</color>
+  	<color name="amber">#FFC107</color>
+  	<color name="purple">#E040FB</color>
+  	<color name="red">#D32F2F</color>
+  	
+  	<color name="orange_dark">#FF7043</color>
+  	
+  	
+  	
+  	
+    <color name="pressed">#33000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+
+    <color name="tumblr_primary">#36465D</color>
+    <color name="tumblr_orange">#F2992E</color>
+    <color name="tumblr_green">#56BC8A</color>
+    <color name="tumblr_white">#FFFFFF</color>
+    <color name="tumblr_grey">#748089</color>
+    <color name="tumblr_blue">#4AA8D8</color>
+    <color name="tumblr_red">#D95E40</color>
+
+    <color name="path_primary">#E62F17</color>
+    <color name="path_orange">#FF9500</color>
+    <color name="path_blue">#1774E6</color>
+    <color name="path_black">#403B36</color>
+    <color name="path_green">#5FB336</color>
+    <color name="path_purple">#49098A</color>
+</resources>

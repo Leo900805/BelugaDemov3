@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="beluga.com.belugademov3.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login page" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startMOLPaymentButtonPress"
+            android:text="MOL" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startGooglePaymentButtonPress"
+            android:text="IAB" />
+
+        <Button
+            android:id="@+id/mycardsmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startMyCardSmallPaymentButtonPress"
+            android:text="MyCard:Small Payment" />
+
+        <Button
+            android:id="@+id/mycardserial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startMyCardSerialNumberButtonPress"
+            android:text="MyCard:serial number" />
+
+        <Button
+            android:id="@+id/stopService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stopService"
+            android:text="stop Service" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faceboook Invite"
+            android:onClick="callFacebookInvite"/>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faceboook share"
+            android:onClick="callFacebookShare"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

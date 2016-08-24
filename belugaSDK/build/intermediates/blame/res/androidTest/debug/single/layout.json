@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_v2.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\service_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\service_layout.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_sign_up_page_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_sign_up_page_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\service_account_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\service_account_layout.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\right_point_frame.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\right_point_frame.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\payment_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\payment_layout.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\modify_pwd_page_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\modify_pwd_page_v2.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\modify_pwd_page_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\modify_pwd_page_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_landscape.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_landscape.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_sign_up_page_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_sign_up_page_v2.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_landscape_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_landscape_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\left_point_frame.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\left_point_frame.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sign_up_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\sign_up_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\sign_up_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\sign_up_v2.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\service_bar_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\service_bar_layout.xml"
+    }
+]
