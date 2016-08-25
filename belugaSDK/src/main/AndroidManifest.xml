@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hosengamers.chee"
+    package="com.hosengamers.beluga"
     android:versionCode="1"
     android:versionName="1.0" >
     
@@ -28,28 +28,28 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name="com.hosengamers.chee.loginpage.AuthClientActivity"
+            android:name="com.hosengamers.beluga.loginpage.AuthClientActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         </activity>
         <activity
-            android:name="com.hosengamers.chee.loginpage.Changepassword"
+            android:name="com.hosengamers.beluga.loginpage.Changepassword"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="com.hosengamers.chee.loginpage.Registration"
+            android:name="com.hosengamers.beluga.loginpage.Registration"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:windowSoftInputMode="stateHidden">
         </activity>
         <activity
-            android:name="com.hosengamers.chee.loginpage.Fastregistration"
+            android:name="com.hosengamers.beluga.loginpage.Fastregistration"
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
@@ -57,7 +57,7 @@
         </activity>
 
         <activity
-            android:name="com.hosengamers.chee.payment.mol.MOLActivity"
+            android:name="com.hosengamers.beluga.payment.mol.MOLActivity"
             android:label="@string/app_name"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
@@ -72,14 +72,14 @@
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
         
         <activity
-            android:name="com.hosengamers.chee.payment.iab.InAppBillingActivity"
+            android:name="com.hosengamers.beluga.payment.iab.InAppBillingActivity"
             android:label="@string/app_name" 
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
         
         <activity
-            android:name="com.hosengamers.chee.payment.mycard.MyCardActivity"
+            android:name="com.hosengamers.beluga.payment.mycard.MyCardActivity"
             android:label="@string/app_name" 
             android:configChanges="orientation"
             android:screenOrientation="portrait">
@@ -94,11 +94,11 @@
 			android:screenOrientation="portrait"
 			android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
          
-         <service android:name="com.hosengamers.chee.service.BelugaService" 
+         <service android:name="com.hosengamers.beluga.service.BelugaService"
              android:configChanges="keyboardHidden|orientation|screenSize"/>
          
          <activity
-            android:name="com.hosengamers.chee.service.BelugaServiceActivity"
+            android:name="com.hosengamers.beluga.service.BelugaServiceActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
@@ -107,7 +107,7 @@
         
          
          <activity
-            android:name="com.hosengamers.chee.invite.FacebookFriendsInviteActivity"
+            android:name="com.hosengamers.beluga.invite.FacebookFriendsInviteActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
@@ -116,7 +116,7 @@
         </activity>
         
          <activity
-            android:name="com.hosengamers.chee.invite.FacebookGameInviteActivity"
+            android:name="com.hosengamers.beluga.invite.FacebookGameInviteActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"
@@ -128,7 +128,7 @@
           android:exported="true"/>
         
          <activity
-            android:name="com.hosengamers.chee.share.FacebookShare"
+            android:name="com.hosengamers.beluga.share.FacebookShare"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden"
             android:configChanges="orientation"

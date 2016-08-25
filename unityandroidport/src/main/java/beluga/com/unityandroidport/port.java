@@ -4,11 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.hosengamers.chee.belugakeys.Keys;
-import com.hosengamers.chee.loginpage.AuthClientActivity;
-import com.hosengamers.chee.payment.iab.InAppBillingActivity;
-import com.hosengamers.chee.payment.mol.MOLActivity;
-import com.hosengamers.chee.payment.mycard.MyCardActivity;
+import com.hosengamers.beluga.belugakeys.Keys;
+import com.hosengamers.beluga.loginpage.AuthClientActivity;
+import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
+import com.hosengamers.beluga.payment.mol.MOLActivity;
+import com.hosengamers.beluga.payment.mycard.MyCardActivity;
 import com.unity3d.player.UnityPlayer;
 import com.unity3d.player.UnityPlayerActivity;
 
@@ -97,7 +97,7 @@ public class port extends UnityPlayerActivity
 
         unityGameObjName = UnityGameObj;
         unityMethod = UnityMethod;
-        Intent i = new Intent(UnityPlayer.currentActivity, com.hosengamers.chee.payment.iab.InAppBillingActivity.class);
+        Intent i = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.payment.iab.InAppBillingActivity.class);
         Bundle b = new Bundle();
         b.putString(InAppBillingActivity.base64EncodedPublicKey, base64);
         b.putString(InAppBillingActivity.ItemID, SKU_GAS);
@@ -183,7 +183,7 @@ public class port extends UnityPlayerActivity
         unityGameObjName = UnityGameObj;
         String appLinkUrl =appUrl;
         String previewImageUrl = preImageUrl;
-        Intent i = new Intent(UnityPlayer.currentActivity, com.hosengamers.chee.invite.FacebookFriendsInviteActivity.class);
+        Intent i = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.invite.FacebookFriendsInviteActivity.class);
         i.putExtra(Keys.AppLinkUrl.toString(), appLinkUrl);
         i.putExtra(Keys.AppLinkPreviewImageUrl.toString(), previewImageUrl);
         UnityPlayer.currentActivity.startActivity(i);
@@ -195,7 +195,7 @@ public class port extends UnityPlayerActivity
         unityGameObjName = UnityGameObj;
         String shareContentTitle = title;
         String shareContentDescription = description;
-        Intent intent = new Intent(UnityPlayer.currentActivity, com.hosengamers.chee.invite.FacebookGameInviteActivity.class);
+        Intent intent = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.invite.FacebookGameInviteActivity.class);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
         UnityPlayer.currentActivity.startActivity(intent);
@@ -209,7 +209,7 @@ public class port extends UnityPlayerActivity
         String shareContentDescription = description;
         String shareContentUrl = contentUrl;
         String shareImageUrl = imageUrl;
-        Intent intent = new Intent(UnityPlayer.currentActivity, com.hosengamers.chee.share.FacebookShare.class);
+        Intent intent = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.share.FacebookShare.class);
         intent.putExtra(Keys.ShareContentUrl.toString(), shareContentUrl);
         intent.putExtra(Keys.ShareImageUrl.toString(), shareImageUrl);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);

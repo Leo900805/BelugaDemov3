@@ -35,14 +35,13 @@ import org.json.JSONObject;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.hosengamers.chee.invite.FacebookFriendsInviteActivity;
-import com.hosengamers.chee.loginpage.AuthClientActivity;
-import com.hosengamers.chee.payment.iab.InAppBillingActivity;
-import com.hosengamers.chee.payment.mol.MOLActivity;
-import com.hosengamers.chee.payment.mycard.MyCardActivity;
-import com.hosengamers.chee.belugakeys.Keys;
-import com.hosengamers.chee.service.BelugaService;
-import com.hosengamers.chee.share.FacebookShare;;
+import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
+import com.hosengamers.beluga.loginpage.AuthClientActivity;
+import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
+import com.hosengamers.beluga.payment.mol.MOLActivity;
+import com.hosengamers.beluga.payment.mycard.MyCardActivity;
+import com.hosengamers.beluga.belugakeys.Keys;
+import com.hosengamers.beluga.share.FacebookShare;;
 
 
 @SuppressWarnings("deprecation")

@@ -36,12 +36,12 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\quick_sign_up_page_v2.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\quick_sign_up_page_v2.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\sign_up_large_size.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\sign_up_large_size.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\quick_sign_up_page_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\quick_sign_up_page_v2.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\login_page_large_size.xml",
@@ -60,16 +60,16 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\right_point_frame.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\modify_pwd_page_v2.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\modify_pwd_page_v2.xml"
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_fragment.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_fragment.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\quick_sign_up_page_large_size.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\quick_sign_up_page_large_size.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_fragment.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\layout\\place_autocomplete_fragment.xml"
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\modify_pwd_page_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\modify_pwd_page_v2.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_round.xml",
@@ -80,16 +80,16 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\service_layout.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\login_page_landscape_large_size.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\login_page_landscape_large_size.xml"
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\service_account_layout.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\service_account_layout.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_small.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\service_account_layout.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\service_account_layout.xml"
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\login_page_landscape_large_size.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\login_page_landscape_large_size.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_round.xml",
@@ -104,12 +104,12 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\login_page_landscape.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\sign_up_v2.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\sign_up_v2.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\login_page_v2.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\login_page_v2.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\sign_up_v2.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\layout\\sign_up_v2.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_large.xml",
