@@ -72,16 +72,16 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xhdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",

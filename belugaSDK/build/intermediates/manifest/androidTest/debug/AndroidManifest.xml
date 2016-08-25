@@ -32,7 +32,6 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <uses-library android:name="android.test.runner" />
@@ -41,6 +40,7 @@
             android:name="com.hosengamers.chee.loginpage.AuthClientActivity"
             android:configChanges="orientation"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
@@ -130,7 +130,7 @@
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
-            android:authorities="com.facebook.app.FacebookContentProvider1054015187996860"
+            android:authorities="com.facebook.app.FacebookContentProvider1797395940498411"
             android:exported="true" />
 
         <activity

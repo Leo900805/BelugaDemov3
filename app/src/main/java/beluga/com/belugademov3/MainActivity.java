@@ -1,9 +1,7 @@
 package beluga.com.belugademov3;
 
 import android.app.Activity;
-import android.content.Context;
 import android.net.Uri;
-import android.provider.Settings;
 import android.util.Base64;
 import android.util.Log;
 import android.content.Intent;
@@ -44,9 +42,7 @@ import com.hosengamers.chee.payment.mol.MOLActivity;
 import com.hosengamers.chee.payment.mycard.MyCardActivity;
 import com.hosengamers.chee.belugakeys.Keys;
 import com.hosengamers.chee.service.BelugaService;
-import com.hosengamers.chee.share.FacebookShare;
-
-import static android.provider.Settings.*;
+import com.hosengamers.chee.share.FacebookShare;;
 
 
 @SuppressWarnings("deprecation")
@@ -137,7 +133,7 @@ public class MainActivity extends Activity {
         try {
             Log.d("KeyHash:", "start...");
             PackageInfo info = getPackageManager().getPackageInfo(
-                    "com.example.belugademov2", PackageManager.GET_SIGNATURES);
+                    "beluga.com.belugademov3", PackageManager.GET_SIGNATURES);
             for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
                 md.update(signature.toByteArray());

@@ -60,16 +60,16 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_landscape.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_landscape.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\quick_sign_up_page_v2.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\quick_sign_up_page_v2.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\messenger_button_send_white_small.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\login_page_landscape.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\login_page_landscape.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\place_autocomplete_item_prediction.xml",

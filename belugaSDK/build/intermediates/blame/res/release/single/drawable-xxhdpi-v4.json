@@ -28,12 +28,12 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xxhdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\com_facebook_button_icon.png",

@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,6 +17,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
+import android.util.Base64;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -51,6 +55,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.hosengamers.chee.R;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * Created by Leo on 2015/10/5.
@@ -201,10 +208,26 @@ public class AuthClientActivity extends Activity implements OnClickListener,
             }
             
         }
-        
-        
+
          //get external data 
          GetDataSetting();
+
+        //check Facebook hash key...
+        try {
+            Log.d("KeyHash:", "start...");
+            PackageInfo info = getPackageManager().getPackageInfo(
+                    AuthHttpClient.PackageID , PackageManager.GET_SIGNATURES);
+            for (Signature signature : info.signatures) {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            }
+            Log.d("KeyHash:", "end...");
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.d("KeyHash e1:", e.toString());
+        } catch (NoSuchAlgorithmException e) {
+            Log.d("KeyHash e2:", e.toString());
+        }
         
 	     // Configure sign-in to request the user's ID, email address, and basic
 	     // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
@@ -295,6 +318,8 @@ public class AuthClientActivity extends Activity implements OnClickListener,
    	    	pwdShowableBtn.setAnimation(translateShow);
    	    	loginBtn.startAnimation(scaleShow);
    	    	logoView.startAnimation(translateShow);
+
+        fbInfoManager = new FacebookInfoManager(this, authhttpclient);
    	 
         
         /*
@@ -327,6 +352,7 @@ public class AuthClientActivity extends Activity implements OnClickListener,
         }else{
             CreateHttpClient(); //設定http連接物件
             SetDefaultText(); //設定text box預設值
+            fbInfoManager = new FacebookInfoManager(this, authhttpclient);
         }
 
         /*
@@ -343,22 +369,17 @@ public class AuthClientActivity extends Activity implements OnClickListener,
             //setButtonEnable(true);
         }else{
             Log.i("Check fb login status", "already logged in");
-            //showAutoLoginDialog(Keys.Facebook.toString());
             LoginManager.getInstance().logOut();
+            showAutoLoginDialog(Keys.Facebook.toString());
         }
-
-        fbInfoManager = new FacebookInfoManager(this, authhttpclient); 
-        
-
-        
     }
 	
 	//ask auto login Dialog show method
     private void showAutoLoginDialog(final String str){
-    	
-    	final Activity act = this;
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        
+
+
+        final Activity act = this;
         if(str.equals(Keys.Facebook.toString())){
         	builder.setMessage(UsedString.getDialogContentString(getApplicationContext(), Keys.Facebook.toString()));
     	}else if(str.equals(Keys.Google.toString())){
@@ -370,9 +391,11 @@ public class AuthClientActivity extends Activity implements OnClickListener,
         builder.setPositiveButton(R.string.Confirm_Button_Text, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                Log.i(TAG,"comfirm...");
             	if(str.equals(Keys.Facebook.toString())){
-            		fbId = InformationProcess.getThirdPartyInfo(act);
-            		authhttpclient.Auth_FacebookLoignRegister(fbId);
+                    Log.i(TAG,"fb comfirm");
+                    //auto click fb lgoin button
+                    fbLoginButton.performClick();
             		dialog.dismiss();
             	}else if(str.equals(Keys.Google.toString())){
             		signIn();
@@ -385,7 +408,14 @@ public class AuthClientActivity extends Activity implements OnClickListener,
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				if(str.equals(Keys.Facebook.toString())){
-					LoginManager.getInstance().logOut();
+                    if (AccessToken.getCurrentAccessToken() == null) {
+                        Log.i("Check fb login status", "already logged out");
+                    }else{
+                        Log.i("Check fb login status", "already logged in");
+                        Log.i("Check fb login status", "logout success");
+                        LoginManager.getInstance().logOut();
+
+                    }
 				}
 				
 				// TODO Auto-generated method stub
@@ -463,8 +493,8 @@ public class AuthClientActivity extends Activity implements OnClickListener,
         }
         
         /*
-         * AppID, ApiKey and PackageID is null show "params error" string 
-         */
+                * AppID, ApiKey and PackageID is null show "params error" string
+                */
         if(AuthHttpClient.AppID == null || AuthHttpClient.ApiKey == null || AuthHttpClient.PackageID == null){
             Toast.makeText(this, R.string.Params_ERROR, Toast.LENGTH_LONG).show();
             Log.e(TAG,"appid is "+AuthHttpClient.AppID + " .");
@@ -474,8 +504,8 @@ public class AuthClientActivity extends Activity implements OnClickListener,
         
         Log.d(TAG, " APPID: " + AuthHttpClient.AppID); 
         /*
-         * AuthHttpClient.ApiKey cannot be null 
-         */
+               * AuthHttpClient.ApiKey cannot be null
+               */
         if(AuthHttpClient.ApiKey != null){
             if(AuthHttpClient.ApiKey.compareTo("") != 0){
                 Log.d(TAG,AuthHttpClient.ApiKey.substring(AuthHttpClient.ApiKey.length() - 4
