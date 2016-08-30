@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.hosengamers.chee.layout.widget.ClipRevealFrame xmlns:android="http://schemas.android.com/apk/res/android"
+<com.hosengamers.beluga.layout.widget.ClipRevealFrame xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/menu_layout"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
      
-    <com.hosengamers.chee.layout.widget.ArcLayout
+    <com.hosengamers.beluga.layout.widget.ArcLayout
         android:id="@+id/arc_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
 		
          
                 
-     </com.hosengamers.chee.layout.widget.ArcLayout>
+     </com.hosengamers.beluga.layout.widget.ArcLayout>
     
      
     
@@ -114,4 +114,4 @@
      
 
         
-</com.hosengamers.chee.layout.widget.ClipRevealFrame>
+</com.hosengamers.beluga.layout.widget.ClipRevealFrame>

@@ -1,7 +1,19 @@
 [
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_send_background.xml"
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_selector.xml",
@@ -12,23 +24,43 @@
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_white_bg_round.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_background.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
         "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
         "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "G:\\Users\\deskuser\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable\\com_facebook_button_like_background.xml"
     }
 ]

@@ -199,12 +199,7 @@ public class AuthClientActivity extends Activity implements OnClickListener,
             if(screenInches > CONSTANT_INCHES){
             	this.setContentView(R.layout.login_page_large_size);
             }else{
-            	try{
             		this.setContentView(R.layout.login_page_v2);
-            	}catch(java.lang.NoClassDefFoundError noClass){
-            		Log.i("NoClassDefFoundError noClass", "in line 200");
-            	}
-            	
             }
             
         }

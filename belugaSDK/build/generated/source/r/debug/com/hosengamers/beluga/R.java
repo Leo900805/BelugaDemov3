@@ -1284,9 +1284,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.hosengamers.chee:adSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.hosengamers.chee:adSizes}</code></td><td></td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.hosengamers.chee:adUnitId}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize com.hosengamers.beluga:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes com.hosengamers.beluga:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId com.hosengamers.beluga:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -1306,7 +1306,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:adSize
+          @attr name com.hosengamers.beluga:adSize
         */
         public static int AdsAttrs_adSize = 0;
         /**
@@ -1320,7 +1320,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:adSizes
+          @attr name com.hosengamers.beluga:adSizes
         */
         public static int AdsAttrs_adSizes = 1;
         /**
@@ -1334,7 +1334,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:adUnitId
+          @attr name com.hosengamers.beluga:adUnitId
         */
         public static int AdsAttrs_adUnitId = 2;
         /** Attributes that can be used with a CustomWalletTheme.
@@ -1343,7 +1343,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.hosengamers.chee:windowTransitionStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.hosengamers.beluga:windowTransitionStyle}</code></td><td></td></tr>
            </table>
            @see #CustomWalletTheme_windowTransitionStyle
          */
@@ -1364,7 +1364,7 @@ containing a value of this type.
 <tr><td><code>slide</code></td><td>1</td><td></td></tr>
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:windowTransitionStyle
+          @attr name com.hosengamers.beluga:windowTransitionStyle
         */
         public static int CustomWalletTheme_windowTransitionStyle = 0;
         /** Attributes that can be used with a LoadingImageView.
@@ -1373,9 +1373,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop com.hosengamers.chee:circleCrop}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.hosengamers.chee:imageAspectRatio}</code></td><td></td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.hosengamers.chee:imageAspectRatioAdjust}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.hosengamers.beluga:circleCrop}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.hosengamers.beluga:imageAspectRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.hosengamers.beluga:imageAspectRatioAdjust}</code></td><td></td></tr>
            </table>
            @see #LoadingImageView_circleCrop
            @see #LoadingImageView_imageAspectRatio
@@ -1395,7 +1395,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:circleCrop
+          @attr name com.hosengamers.beluga:circleCrop
         */
         public static int LoadingImageView_circleCrop = 2;
         /**
@@ -1409,7 +1409,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:imageAspectRatio
+          @attr name com.hosengamers.beluga:imageAspectRatio
         */
         public static int LoadingImageView_imageAspectRatio = 1;
         /**
@@ -1427,7 +1427,7 @@ containing a value of this type.
 <tr><td><code>adjust_width</code></td><td>1</td><td></td></tr>
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:imageAspectRatioAdjust
+          @attr name com.hosengamers.beluga:imageAspectRatioAdjust
         */
         public static int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MapAttrs.
@@ -1436,23 +1436,23 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_ambientEnabled com.hosengamers.chee:ambientEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.hosengamers.chee:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.hosengamers.chee:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.hosengamers.chee:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.hosengamers.chee:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.hosengamers.chee:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_liteMode com.hosengamers.chee:liteMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.hosengamers.chee:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.hosengamers.chee:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.hosengamers.chee:uiMapToolbar}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.hosengamers.chee:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.hosengamers.chee:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.hosengamers.chee:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.hosengamers.chee:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.hosengamers.chee:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.hosengamers.chee:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.hosengamers.chee:zOrderOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_ambientEnabled com.hosengamers.beluga:ambientEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing com.hosengamers.beluga:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.hosengamers.beluga:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.hosengamers.beluga:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt com.hosengamers.beluga:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom com.hosengamers.beluga:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_liteMode com.hosengamers.beluga:liteMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType com.hosengamers.beluga:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass com.hosengamers.beluga:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiMapToolbar com.hosengamers.beluga:uiMapToolbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.hosengamers.beluga:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.hosengamers.beluga:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.hosengamers.beluga:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls com.hosengamers.beluga:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.hosengamers.beluga:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.hosengamers.beluga:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.hosengamers.beluga:zOrderOnTop}</code></td><td></td></tr>
            </table>
            @see #MapAttrs_ambientEnabled
            @see #MapAttrs_cameraBearing
@@ -1490,7 +1490,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:ambientEnabled
+          @attr name com.hosengamers.beluga:ambientEnabled
         */
         public static int MapAttrs_ambientEnabled = 16;
         /**
@@ -1504,7 +1504,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:cameraBearing
+          @attr name com.hosengamers.beluga:cameraBearing
         */
         public static int MapAttrs_cameraBearing = 1;
         /**
@@ -1518,7 +1518,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:cameraTargetLat
+          @attr name com.hosengamers.beluga:cameraTargetLat
         */
         public static int MapAttrs_cameraTargetLat = 2;
         /**
@@ -1532,7 +1532,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:cameraTargetLng
+          @attr name com.hosengamers.beluga:cameraTargetLng
         */
         public static int MapAttrs_cameraTargetLng = 3;
         /**
@@ -1546,7 +1546,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:cameraTilt
+          @attr name com.hosengamers.beluga:cameraTilt
         */
         public static int MapAttrs_cameraTilt = 4;
         /**
@@ -1560,7 +1560,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:cameraZoom
+          @attr name com.hosengamers.beluga:cameraZoom
         */
         public static int MapAttrs_cameraZoom = 5;
         /**
@@ -1574,7 +1574,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:liteMode
+          @attr name com.hosengamers.beluga:liteMode
         */
         public static int MapAttrs_liteMode = 6;
         /**
@@ -1594,7 +1594,7 @@ containing a value of this type.
 <tr><td><code>terrain</code></td><td>3</td><td></td></tr>
 <tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:mapType
+          @attr name com.hosengamers.beluga:mapType
         */
         public static int MapAttrs_mapType = 0;
         /**
@@ -1608,7 +1608,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiCompass
+          @attr name com.hosengamers.beluga:uiCompass
         */
         public static int MapAttrs_uiCompass = 7;
         /**
@@ -1622,7 +1622,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiMapToolbar
+          @attr name com.hosengamers.beluga:uiMapToolbar
         */
         public static int MapAttrs_uiMapToolbar = 15;
         /**
@@ -1636,7 +1636,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiRotateGestures
+          @attr name com.hosengamers.beluga:uiRotateGestures
         */
         public static int MapAttrs_uiRotateGestures = 8;
         /**
@@ -1650,7 +1650,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiScrollGestures
+          @attr name com.hosengamers.beluga:uiScrollGestures
         */
         public static int MapAttrs_uiScrollGestures = 9;
         /**
@@ -1664,7 +1664,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiTiltGestures
+          @attr name com.hosengamers.beluga:uiTiltGestures
         */
         public static int MapAttrs_uiTiltGestures = 10;
         /**
@@ -1678,7 +1678,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiZoomControls
+          @attr name com.hosengamers.beluga:uiZoomControls
         */
         public static int MapAttrs_uiZoomControls = 11;
         /**
@@ -1692,7 +1692,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:uiZoomGestures
+          @attr name com.hosengamers.beluga:uiZoomGestures
         */
         public static int MapAttrs_uiZoomGestures = 12;
         /**
@@ -1706,7 +1706,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:useViewLifecycle
+          @attr name com.hosengamers.beluga:useViewLifecycle
         */
         public static int MapAttrs_useViewLifecycle = 13;
         /**
@@ -1720,7 +1720,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:zOrderOnTop
+          @attr name com.hosengamers.beluga:zOrderOnTop
         */
         public static int MapAttrs_zOrderOnTop = 14;
         /** Attributes that can be used with a SignInButton.
@@ -1729,9 +1729,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SignInButton_buttonSize com.hosengamers.chee:buttonSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_colorScheme com.hosengamers.chee:colorScheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #SignInButton_scopeUris com.hosengamers.chee:scopeUris}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_buttonSize com.hosengamers.beluga:buttonSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_colorScheme com.hosengamers.beluga:colorScheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #SignInButton_scopeUris com.hosengamers.beluga:scopeUris}</code></td><td></td></tr>
            </table>
            @see #SignInButton_buttonSize
            @see #SignInButton_colorScheme
@@ -1757,7 +1757,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>wide</code></td><td>1</td><td></td></tr>
 <tr><td><code>icon_only</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:buttonSize
+          @attr name com.hosengamers.beluga:buttonSize
         */
         public static int SignInButton_buttonSize = 0;
         /**
@@ -1777,7 +1777,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>light</code></td><td>1</td><td></td></tr>
 <tr><td><code>auto</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:colorScheme
+          @attr name com.hosengamers.beluga:colorScheme
         */
         public static int SignInButton_colorScheme = 1;
         /**
@@ -1788,7 +1788,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-          @attr name com.hosengamers.chee:scopeUris
+          @attr name com.hosengamers.beluga:scopeUris
         */
         public static int SignInButton_scopeUris = 2;
         /** Attributes that can be used with a WalletFragmentOptions.
@@ -1797,10 +1797,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.hosengamers.chee:appTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment com.hosengamers.chee:environment}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.hosengamers.chee:fragmentMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.hosengamers.chee:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_appTheme com.hosengamers.beluga:appTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment com.hosengamers.beluga:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.hosengamers.beluga:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.hosengamers.beluga:fragmentStyle}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_appTheme
            @see #WalletFragmentOptions_environment
@@ -1824,7 +1824,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:appTheme
+          @attr name com.hosengamers.beluga:appTheme
         */
         public static int WalletFragmentOptions_appTheme = 0;
         /**
@@ -1843,7 +1843,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:environment
+          @attr name com.hosengamers.beluga:environment
         */
         public static int WalletFragmentOptions_environment = 1;
         /**
@@ -1860,7 +1860,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:fragmentMode
+          @attr name com.hosengamers.beluga:fragmentMode
         */
         public static int WalletFragmentOptions_fragmentMode = 3;
         /**
@@ -1870,7 +1870,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hosengamers.chee:fragmentStyle
+          @attr name com.hosengamers.beluga:fragmentStyle
         */
         public static int WalletFragmentOptions_fragmentStyle = 2;
         /** Attributes that can be used with a WalletFragmentStyle.
@@ -1879,17 +1879,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.hosengamers.chee:buyButtonAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.hosengamers.chee:buyButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.hosengamers.chee:buyButtonText}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.hosengamers.chee:buyButtonWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.hosengamers.chee:maskedWalletDetailsBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.hosengamers.chee:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.hosengamers.chee:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.hosengamers.chee:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.hosengamers.chee:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.hosengamers.chee:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.hosengamers.chee:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.hosengamers.beluga:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.hosengamers.beluga:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.hosengamers.beluga:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.hosengamers.beluga:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.hosengamers.beluga:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.hosengamers.beluga:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.hosengamers.beluga:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.hosengamers.beluga:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.hosengamers.beluga:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.hosengamers.beluga:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.hosengamers.beluga:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -1929,7 +1929,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:buyButtonAppearance
+          @attr name com.hosengamers.beluga:buyButtonAppearance
         */
         public static int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
@@ -1954,7 +1954,7 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:buyButtonHeight
+          @attr name com.hosengamers.beluga:buyButtonHeight
         */
         public static int WalletFragmentStyle_buyButtonHeight = 0;
         /**
@@ -1976,7 +1976,7 @@ containing a value of this type.
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 <tr><td><code>donate_with_google</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:buyButtonText
+          @attr name com.hosengamers.beluga:buyButtonText
         */
         public static int WalletFragmentStyle_buyButtonText = 2;
         /**
@@ -2001,7 +2001,7 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:buyButtonWidth
+          @attr name com.hosengamers.beluga:buyButtonWidth
         */
         public static int WalletFragmentStyle_buyButtonWidth = 1;
         /**
@@ -2013,7 +2013,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hosengamers.chee:maskedWalletDetailsBackground
+          @attr name com.hosengamers.beluga:maskedWalletDetailsBackground
         */
         public static int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
@@ -2025,7 +2025,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.hosengamers.chee:maskedWalletDetailsButtonBackground
+          @attr name com.hosengamers.beluga:maskedWalletDetailsButtonBackground
         */
         public static int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
@@ -2035,7 +2035,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hosengamers.chee:maskedWalletDetailsButtonTextAppearance
+          @attr name com.hosengamers.beluga:maskedWalletDetailsButtonTextAppearance
         */
         public static int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
@@ -2045,7 +2045,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hosengamers.chee:maskedWalletDetailsHeaderTextAppearance
+          @attr name com.hosengamers.beluga:maskedWalletDetailsHeaderTextAppearance
         */
         public static int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
@@ -2065,7 +2065,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:maskedWalletDetailsLogoImageType
+          @attr name com.hosengamers.beluga:maskedWalletDetailsLogoImageType
         */
         public static int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
@@ -2080,7 +2080,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:maskedWalletDetailsLogoTextColor
+          @attr name com.hosengamers.beluga:maskedWalletDetailsLogoTextColor
         */
         public static int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
@@ -2090,7 +2090,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.hosengamers.chee:maskedWalletDetailsTextAppearance
+          @attr name com.hosengamers.beluga:maskedWalletDetailsTextAppearance
         */
         public static int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
         /** Attributes that can be used with a arc_ArcLayout.
@@ -2099,12 +2099,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_axisRadius com.hosengamers.chee:arc_axisRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_color com.hosengamers.chee:arc_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_freeAngle com.hosengamers.chee:arc_freeAngle}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_origin com.hosengamers.chee:arc_origin}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_radius com.hosengamers.chee:arc_radius}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_arc_reverseAngle com.hosengamers.chee:arc_reverseAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_axisRadius com.hosengamers.beluga:arc_axisRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_color com.hosengamers.beluga:arc_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_freeAngle com.hosengamers.beluga:arc_freeAngle}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_origin com.hosengamers.beluga:arc_origin}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_radius com.hosengamers.beluga:arc_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_arc_reverseAngle com.hosengamers.beluga:arc_reverseAngle}</code></td><td></td></tr>
            </table>
            @see #arc_ArcLayout_arc_axisRadius
            @see #arc_ArcLayout_arc_color
@@ -2130,7 +2130,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_axisRadius
+          @attr name com.hosengamers.beluga:arc_axisRadius
         */
         public static int arc_ArcLayout_arc_axisRadius = 3;
         /**
@@ -2145,7 +2145,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_color
+          @attr name com.hosengamers.beluga:arc_color
         */
         public static int arc_ArcLayout_arc_color = 1;
         /**
@@ -2159,7 +2159,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_freeAngle
+          @attr name com.hosengamers.beluga:arc_freeAngle
         */
         public static int arc_ArcLayout_arc_freeAngle = 4;
         /**
@@ -2183,7 +2183,7 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:arc_origin
+          @attr name com.hosengamers.beluga:arc_origin
         */
         public static int arc_ArcLayout_arc_origin = 0;
         /**
@@ -2199,7 +2199,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_radius
+          @attr name com.hosengamers.beluga:arc_radius
         */
         public static int arc_ArcLayout_arc_radius = 2;
         /**
@@ -2213,7 +2213,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_reverseAngle
+          @attr name com.hosengamers.beluga:arc_reverseAngle
         */
         public static int arc_ArcLayout_arc_reverseAngle = 5;
         /** Attributes that can be used with a arc_ArcLayout_Layout.
@@ -2222,8 +2222,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #arc_ArcLayout_Layout_arc_angle com.hosengamers.chee:arc_angle}</code></td><td></td></tr>
-           <tr><td><code>{@link #arc_ArcLayout_Layout_arc_origin com.hosengamers.chee:arc_origin}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_Layout_arc_angle com.hosengamers.beluga:arc_angle}</code></td><td></td></tr>
+           <tr><td><code>{@link #arc_ArcLayout_Layout_arc_origin com.hosengamers.beluga:arc_origin}</code></td><td></td></tr>
            </table>
            @see #arc_ArcLayout_Layout_arc_angle
            @see #arc_ArcLayout_Layout_arc_origin
@@ -2242,7 +2242,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:arc_angle
+          @attr name com.hosengamers.beluga:arc_angle
         */
         public static int arc_ArcLayout_Layout_arc_angle = 1;
         /**
@@ -2266,7 +2266,7 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:arc_origin
+          @attr name com.hosengamers.beluga:arc_origin
         */
         public static int arc_ArcLayout_Layout_arc_origin = 0;
         /** Attributes that can be used with a com_facebook_like_view.
@@ -2275,12 +2275,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_like_view_auxiliary_view_position com.hosengamers.chee:auxiliary_view_position}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_like_view_foreground_color com.hosengamers.chee:foreground_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_like_view_horizontal_alignment com.hosengamers.chee:horizontal_alignment}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_like_view_object_id com.hosengamers.chee:object_id}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_like_view_object_type com.hosengamers.chee:object_type}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_like_view_style com.hosengamers.chee:style}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_auxiliary_view_position com.hosengamers.beluga:auxiliary_view_position}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_foreground_color com.hosengamers.beluga:foreground_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_horizontal_alignment com.hosengamers.beluga:horizontal_alignment}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_object_id com.hosengamers.beluga:object_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_object_type com.hosengamers.beluga:object_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_style com.hosengamers.beluga:style}</code></td><td></td></tr>
            </table>
            @see #com_facebook_like_view_auxiliary_view_position
            @see #com_facebook_like_view_foreground_color
@@ -2308,7 +2308,7 @@ containing a value of this type.
 <tr><td><code>inline</code></td><td>1</td><td></td></tr>
 <tr><td><code>top</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:auxiliary_view_position
+          @attr name com.hosengamers.beluga:auxiliary_view_position
         */
         public static int com_facebook_like_view_auxiliary_view_position = 4;
         /**
@@ -2323,7 +2323,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:foreground_color
+          @attr name com.hosengamers.beluga:foreground_color
         */
         public static int com_facebook_like_view_foreground_color = 0;
         /**
@@ -2341,7 +2341,7 @@ containing a value of this type.
 <tr><td><code>left</code></td><td>1</td><td></td></tr>
 <tr><td><code>right</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:horizontal_alignment
+          @attr name com.hosengamers.beluga:horizontal_alignment
         */
         public static int com_facebook_like_view_horizontal_alignment = 5;
         /**
@@ -2355,7 +2355,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:object_id
+          @attr name com.hosengamers.beluga:object_id
         */
         public static int com_facebook_like_view_object_id = 1;
         /**
@@ -2373,7 +2373,7 @@ containing a value of this type.
 <tr><td><code>open_graph</code></td><td>1</td><td></td></tr>
 <tr><td><code>page</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:object_type
+          @attr name com.hosengamers.beluga:object_type
         */
         public static int com_facebook_like_view_object_type = 2;
         /**
@@ -2391,7 +2391,7 @@ containing a value of this type.
 <tr><td><code>button</code></td><td>1</td><td></td></tr>
 <tr><td><code>box_count</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:style
+          @attr name com.hosengamers.beluga:style
         */
         public static int com_facebook_like_view_style = 3;
         /** Attributes that can be used with a com_facebook_login_view.
@@ -2400,9 +2400,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.hosengamers.chee:confirm_logout}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_login_text com.hosengamers.chee:login_text}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_login_view_logout_text com.hosengamers.chee:logout_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.hosengamers.beluga:confirm_logout}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_login_text com.hosengamers.beluga:login_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_logout_text com.hosengamers.beluga:logout_text}</code></td><td></td></tr>
            </table>
            @see #com_facebook_login_view_confirm_logout
            @see #com_facebook_login_view_login_text
@@ -2422,7 +2422,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:confirm_logout
+          @attr name com.hosengamers.beluga:confirm_logout
         */
         public static int com_facebook_login_view_confirm_logout = 0;
         /**
@@ -2436,7 +2436,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:login_text
+          @attr name com.hosengamers.beluga:login_text
         */
         public static int com_facebook_login_view_login_text = 1;
         /**
@@ -2450,7 +2450,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:logout_text
+          @attr name com.hosengamers.beluga:logout_text
         */
         public static int com_facebook_login_view_logout_text = 2;
         /** Attributes that can be used with a com_facebook_profile_picture_view.
@@ -2459,8 +2459,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.hosengamers.chee:is_cropped}</code></td><td></td></tr>
-           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.hosengamers.chee:preset_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.hosengamers.beluga:is_cropped}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.hosengamers.beluga:preset_size}</code></td><td></td></tr>
            </table>
            @see #com_facebook_profile_picture_view_is_cropped
            @see #com_facebook_profile_picture_view_preset_size
@@ -2479,7 +2479,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.hosengamers.chee:is_cropped
+          @attr name com.hosengamers.beluga:is_cropped
         */
         public static int com_facebook_profile_picture_view_is_cropped = 1;
         /**
@@ -2497,7 +2497,7 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>-3</td><td></td></tr>
 <tr><td><code>large</code></td><td>-4</td><td></td></tr>
 </table>
-          @attr name com.hosengamers.chee:preset_size
+          @attr name com.hosengamers.beluga:preset_size
         */
         public static int com_facebook_profile_picture_view_preset_size = 0;
     };

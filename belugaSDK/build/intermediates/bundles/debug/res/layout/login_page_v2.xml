@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/blue_gradient_bg"
     android:fitsSystemWindows="true"
-    tools:context="com.hosengamers.chee.AuthClientActivity" >
+    tools:context="com.hosengamers.beluga.AuthClientActivity" >
     
     <RelativeLayout
         android:layout_width="match_parent"

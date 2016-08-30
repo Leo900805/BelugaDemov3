@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hosengamers.chee.test" >
+    package="com.hosengamers.beluga.test" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -10,8 +10,8 @@
         android:name="android.test.InstrumentationTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.hosengamers.chee.test"
-        android:targetPackage="com.hosengamers.chee.test" />
+        android:label="Tests for com.hosengamers.beluga.test"
+        android:targetPackage="com.hosengamers.beluga.test" />
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
