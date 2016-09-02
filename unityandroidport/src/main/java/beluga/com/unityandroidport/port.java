@@ -12,6 +12,8 @@ import com.hosengamers.beluga.payment.mycard.MyCardActivity;
 import com.unity3d.player.UnityPlayer;
 import com.unity3d.player.UnityPlayerActivity;
 
+import org.json.JSONObject;
+
 /**
  * Created by user on 2016/8/23.
  */
@@ -51,11 +53,20 @@ public class port extends UnityPlayerActivity
                     UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, sendUnityStr);
                 }
                 else if (type.equals("PAYMENT")) {
+
+                    JSONObject statusJson = new JSONObject();
+
                     Log.i("Main Demo", "Is " + type + "do else if condition...");
 
-                    String order = bundle.getString("order");
-                    String sign = bundle.getString("sign");
-                    String sendUnityStr = order;
+                    statusJson.put("response", bundle.getInt("response"));
+                    Log.i("statusJson", "response"+bundle.getInt("response"));
+                    statusJson.put("status", bundle.getString("status"));
+                    Log.i("statusJson", bundle.getString("status"));
+                    JSONObject orderJson = new JSONObject( bundle.getString("order") );
+                    Log.i("orderJson", orderJson.toString());
+                    statusJson.put("order", orderJson);
+                    Log.i("statusJson", statusJson.toString() );
+                    String sendUnityStr = statusJson.toString();
                     Log.i("sent to unity payment", unityGameObjName + "," + unityMethod + "," + sendUnityStr);
                     UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, sendUnityStr);
                 }

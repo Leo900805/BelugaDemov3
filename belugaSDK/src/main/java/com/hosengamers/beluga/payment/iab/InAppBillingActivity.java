@@ -294,6 +294,7 @@ public class InAppBillingActivity extends Activity{
             if (result.isFailure()) {
 
             	Log.e(TAG,"Error purchasing: " + result);
+				sendOnTradeGoogleFinished(result, purchase);
             	sendOnTradeGoogleFinished(-1, "Error purchasing: " + result);
                 //complain("Error purchasing: " + result);
                 //setWaitScreen(false);
@@ -314,23 +315,6 @@ public class InAppBillingActivity extends Activity{
                 Log.d(TAG, "Purchase is gas. Starting gas consumption.");
                 mHelper.consumeAsync(purchase, mConsumeFinishedListener);
             }
-            /*else if (purchase.getSku().equals(SKU_PREMIUM)) {
-                // bought the premium upgrade!
-                Log.d(TAG, "Purchase is premium upgrade. Congratulating user.");
-                //alert("Thank you for upgrading to premium!");
-                mIsPremium = true;
-                //updateUi();
-                //setWaitScreen(false);
-            }
-            else if (purchase.getSku().equals(SKU_INFINITE_GAS)) {
-                // bought the infinite gas subscription
-                Log.d(TAG, "Infinite gas subscription purchased.");
-                //alert("Thank you for subscribing to infinite gas!");
-                mSubscribedToInfiniteGas = true;
-                //mTank = TANK_MAX;
-                //updateUi();
-                //setWaitScreen(false);
-            }*/
             afterPurchase = true;
             
             
@@ -338,7 +322,7 @@ public class InAppBillingActivity extends Activity{
             //Log.d(TAG, "Line 331 exe verifyReceipt()...");
             //verifyReceipt(purchase);
             Log.d(TAG, "Line 386 exe sendOnTradeGoogleFinished()...");
-            sendOnTradeGoogleFinished(purchase);
+            sendOnTradeGoogleFinished(result, purchase);
             
             
         }
@@ -536,42 +520,34 @@ public class InAppBillingActivity extends Activity{
 		this.finish();
 	}
 	
-	private void sendOnTradeGoogleFinished(Purchase purchase){
-		/*
-		try {
-        	Log.d(TAG, "flag line 589 ...");
-        	Log.d(TAG, "flag line 590 getPackageName()..."+ getPackageName() );
-        	Log.d(TAG, "flag line 591 purchase.getSku()..."+ purchase.getSku() );
-        	String payload = UUID.randomUUID().toString();
-        	Log.d(TAG, "flag line 593 payload..."+ payload );
-			Bundle buyIntentBundle = mService.getBuyIntent(3, getPackageName(), purchase.getSku(), "inapp", payload);
-			Log.d(TAG, "flag line 595 ...");
-			PendingIntent pendingIntent = buyIntentBundle.getParcelable("BUY_INTENT");
-			Log.d(TAG, "flag line 597 ...");
-			startIntentSenderForResult(pendingIntent.getIntentSender(),
-				    1001, new Intent(), Integer.valueOf(0), Integer.valueOf(0),
-				    Integer.valueOf(0));
-			Log.d(TAG, "flag line 601...");
-		} catch (RemoteException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SendIntentException e) {
-			// TODO Auto-generated catch block
-			Log.d(TAG, "flag line 607 ...");
-			e.printStackTrace();
-		}
-		*/
-		Intent intent = getIntent();	
+	private void sendOnTradeGoogleFinished(IabResult result ,Purchase purchase){
+
+		Log.i(TAG,"result is:" +result.getResponse()+ ","+result.getMessage());
+		int response_code = result.getResponse();
+		Intent intent = getIntent();
 		Bundle b = new Bundle();
 		//Log.i(TAG,"seted code and message " + code +"  "+ message);
 		b.putString("type", "PAYMENT");
-		b.putString("order", purchase.getOriginalJson());
-		b.putString("sign", purchase.getSignature());
-		intent.putExtras(b);
-		setResult(Activity.RESULT_OK, intent); 
-		//mItemId = null;
-		//mUserId = null;
-		this.finish();
+		if(result.getResponse() == 0){
+			Log.i(TAG,"in if response"+result.getResponse());
+			b.putInt("response", response_code);
+			b.putString("status", result.getMessage());
+			b.putString("order", purchase.getOriginalJson());
+			b.putString("sign", purchase.getSignature());
+			intent.putExtras(b);
+			setResult(Activity.RESULT_OK, intent);
+			this.finish();
+		}else {
+			Log.i(TAG,"in else response"+result.getResponse());
+			b.putInt("response", response_code);
+			b.putString("status", result.getMessage());
+			b.putString("order", null);
+			b.putString("sign", null);
+			intent.putExtras(b);
+			setResult(Activity.RESULT_OK, intent);
+			this.finish();
+		}
+
 	}
 	
 	private boolean CheckAllItemsAvailable(){

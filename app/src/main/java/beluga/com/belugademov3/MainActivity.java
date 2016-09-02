@@ -105,12 +105,15 @@ public class MainActivity extends Activity {
 
                 } else if (type.equals("PAYMENT")) {
                     Log.i("Main Demo", "Is " + type + "do else if condition...");
+                    //if(bundle.getInt("response") == 0){
+                        String order = bundle.getString("order");
+                        v.setText("json order: \n" + order + "\n" + "response code: \n" + bundle.getInt("response") + "\n" +
+                             "status:\n" + bundle.getString("status") + "\n");
 
-                    String order = bundle.getString("order");
-                    String sign = bundle.getString("sign");
-                    v.setText("json order: \n" + order + "\n" +
-                            "sign:\n" + sign + "\n");
-
+                    //}else {
+                    //    v.setText("response code: \n" + bundle.getInt("response") + "\n" +
+                     //           "status:\n" + bundle.getString("status") + "\n");
+                    //}
                 }
 
 
@@ -181,7 +184,7 @@ public class MainActivity extends Activity {
 
     public void startGooglePaymentButtonPress(View v) {
         String SKU_GAS = "gold";
-        String base64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn2J6q0hd9FhArBYBcKSJabarKunSudfg/LUAwstUY/6UN581eoXEKBo7U2Kd2IA1GaAAXS3vAx4Nv9DAJrurBNof6JpCaEKjhzHLI8TWRqXh77K9dwM8mNMBnN83pP05pRLOMUz33Q/gd1wpQgFzumjl2ai/wAaIqb2YLCvOCUKPIBz5F4RedIySdMfSvIVsDt1FrIOxmPgyL7PFfU42nJMGle7o01hB+vvcMoOaOJu6Kmjkgbru6X6TRWXFfVXY/27iTbCmF1ASsS6btJgQAZr49Km23lZUlV4T+Po9CFfy04PS+uBXJvleUJPuKQe4GMLtcEfUkhQDZpllUvEI7wIDAQAB";
+        String base64 = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7qTllPgQQycszoBnRlOqxigZQ0nXjcN8qJtRskfYHdLrgWzU2qp7XNuUyrlSIqsFRY/t5VIUP0Q+VTs21zAFcJUyFicDb2s8gQcBnruO5rq20ivaZqv+YdOhHT0+8ZgTKzJ/jnD8xh/QkjBFMKlX3N8trW65Cqum6IoffTR9RlAtQpqkc0NQ4cRmV3wua0Ornr4KGd8ENqyI+KmQ0fnnpMWSCzv+Vscg6erRtRN+912W+8RU9Meo3MK/+NVPl6xxH6+8uUYSAqq9oXE8v/GHaYcjs61rCu3w3uTTdj65a4oAfBZgp73LD4EBs/vkRMfUlZGIxXz7lrh/fYQUKLAEQIDAQAB";
         String UserId = "1030176"; //user id
 
         Intent i = new Intent(MainActivity.this, InAppBillingActivity.class);

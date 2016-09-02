@@ -8,8 +8,8 @@ android {
         applicationId "beluga.com.belugademov3"
         minSdkVersion 19
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 8
+        versionName "1.7"
     }
     buildTypes {
         release {

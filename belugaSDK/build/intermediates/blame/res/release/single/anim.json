@@ -1,39 +1,15 @@
 [
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\fab_label_anim.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\fab_label_anim.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_rotae_hide.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_rotae_hide.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_left_effect.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_left_effect.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_right_effect.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_right_effect.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_left_effect.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_left_effect.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_translate_show.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_translate_show.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide2.xml",
@@ -44,24 +20,8 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_right_effect.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale__landscape_show.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale__landscape_show.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show2.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show2.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anin_rotate_show.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anin_rotate_show.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show2.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show2.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_rotae_hide.xml",
@@ -70,10 +30,6 @@
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale__landscape_show.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale__landscape_show.xml"
-    },
-    {
-        "merged": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide2.xml",
-        "source": "G:\\Users\\deskuser\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide2.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anin_rotate_show.xml",
