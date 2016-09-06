@@ -37,6 +37,7 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.hosengamers.beluga.invite.FacebookFriendsInviteActivity;
 import com.hosengamers.beluga.loginpage.AuthClientActivity;
+import com.hosengamers.beluga.loginpage.FacebookInfoManager;
 import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
 import com.hosengamers.beluga.payment.mol.MOLActivity;
 import com.hosengamers.beluga.payment.mycard.MyCardActivity;
@@ -77,7 +78,11 @@ public class MainActivity extends Activity {
                     String jsonData = bundle.getString(Keys.JsonData.toString());
                     v.setText("Login info :\nLogin Json Data:" + jsonData);
 
-                	/*
+                    FacebookInfoManager facebookInfoManager = new FacebookInfoManager();
+                    facebookInfoManager.loadFriendsList();
+                    Log.i("List", facebookInfoManager.getFriendsList());
+
+                       /*
                                          * 测试强验证：
                                          * 将 String 转换成Json
                                          * 在Json中取得token，送去需求参数appid，apikey，Token，MD5
@@ -103,21 +108,23 @@ public class MainActivity extends Activity {
                     };
                     new Thread(runnable).start();
 
+
+
                 } else if (type.equals("PAYMENT")) {
                     Log.i("Main Demo", "Is " + type + "do else if condition...");
-                    //if(bundle.getInt("response") == 0){
-                        String order = bundle.getString("order");
-                        v.setText("json order: \n" + order + "\n" + "response code: \n" + bundle.getInt("response") + "\n" +
-                             "status:\n" + bundle.getString("status") + "\n");
-
-                    //}else {
-                    //    v.setText("response code: \n" + bundle.getInt("response") + "\n" +
-                     //           "status:\n" + bundle.getString("status") + "\n");
-                    //}
+                    String order = bundle.getString("order");
+                    v.setText("json order: \n" + order + "\n" + "response code: \n" + bundle.getInt("response") + "\n" +
+                            "status:\n" + bundle.getString("status") + "\n");
+                }else if(type.equals("SHARE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    v.setText("value: \n" + value );
+                }else if(type.equals("GAME_INVITE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    v.setText("json: \n" + value );
+                }else if (type.equals("APP_INVITE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    v.setText("json: \n" + value );
                 }
-
-
-
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
@@ -308,17 +315,17 @@ public class MainActivity extends Activity {
         Intent i = new Intent(this, FacebookFriendsInviteActivity.class);
         i.putExtra(Keys.AppLinkUrl.toString(), appLinkUrl);
         i.putExtra(Keys.AppLinkPreviewImageUrl.toString(), previewImageUrl);
-        startActivity(i);
+        startActivityForResult(i, 100);
+    }
 
-			/*
-			String shareContentTitle = "testing";
-			String shareContentDescription = "I am teing sorry!";
-			Intent intent = new Intent(this, com.hosengamers.chee.invite.FacebookGameInviteActivity.class);
-			intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
-			intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
-			startActivity(intent);
-			*/
-
+    public void callFacebookGameInvite(View v) {
+        Log.i("main act", "game invite start...");
+        String shareContentTitle = "test";
+        String shareContentDescription = "test";
+        Intent intent = new Intent(this, com.hosengamers.beluga.invite.FacebookGameInviteActivity.class);
+        intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
+        intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
+        startActivityForResult(intent, 100);
     }
 
     public void callFacebookShare(View v) {
@@ -326,20 +333,18 @@ public class MainActivity extends Activity {
 
         String shareContentTitle = "hello";
         String shareContentDescription = "hello";
-        String shareContentUrl = "https://play.google.com/store/apps/details?id=com.HOSON.chess";
+        String shareContentUrl = "https://play.google.com/store/apps/details?id=com.HSGame.HSGameAcne";
         String shareImageUrl = "https://lh3.googleusercontent.com/8yh5cZfJpWbUADdb3zF_XF-zxVFhc7-w7nl1sMMZFdI3UgidVLsDZ7LXeChz5C_X8GQ=w300-rw";
         Intent intent = new Intent(this, FacebookShare.class);
         intent.putExtra(Keys.ShareContentUrl.toString(), shareContentUrl);
         intent.putExtra(Keys.ShareImageUrl.toString(), shareImageUrl);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
-        startActivity(intent);
-
+        startActivityForResult(intent, 100);
     }
 
 
     private void makePostRequest(List<NameValuePair> params) {
-
 
         HttpClient httpClient = new DefaultHttpClient();
         // replace with your url

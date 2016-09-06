@@ -17,26 +17,30 @@
             android:id="@+id/tv1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/b1"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login page" />
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login page" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startMOLPaymentButtonPress"
-            android:text="MOL" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startMOLPaymentButtonPress"
+                android:text="MOL" />
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startGooglePaymentButtonPress"
-            android:text="IAB" />
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startGooglePaymentButtonPress"
+                android:text="IAB" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/mycardsmall"
@@ -72,6 +76,13 @@
             android:layout_height="wrap_content"
             android:text="Faceboook share"
             android:onClick="callFacebookShare"/>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faceboook Game Invite"
+            android:onClick="callFacebookGameInvite"/>
 
     </LinearLayout>
 

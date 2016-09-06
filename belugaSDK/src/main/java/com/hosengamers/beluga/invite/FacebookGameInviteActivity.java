@@ -26,18 +26,21 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class FacebookGameInviteActivity extends Activity{
-	
+
+	final String LIMIT = "49";
+	final String FIELDS_PARAMS = "id";
+	final String PRETTY = "0";
+	String  after_page = "";
+	String shareContentTitle;
+	String shareContentDescription;
+
 	GameRequestDialog requestDialog;
 	CallbackManager callbackManager;
 	JSONObject json_obj;
 	ArrayList<String> listID = new ArrayList<String>();
-	String id, after_page = "", next = null;
-	boolean hasNextPage = true;
 	GraphRequest nextRequest;
 	Bundle param = new Bundle();
 	GraphRequest.Callback graphCallback;
-	String shareContentTitle;
-	String shareContentDescription;
 	
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -65,12 +68,12 @@ public class FacebookGameInviteActivity extends Activity{
 					@Override
 					public void onSuccess(Result result) {
 						// TODO Auto-generated method stub
-						Log.i("success",result.getRequestId());
+
 						if(nextRequest != null){
-							 param.putString("pretty", "0");
-							 param.putString("limit", "49");
+							 param.putString("pretty", PRETTY);
+							 param.putString("limit", LIMIT);
 							 param.putString("after", after_page);
-							 param.putString("fields", "id");
+							 param.putString("fields", FIELDS_PARAMS);
 							 Runnable runnable = new Runnable() {
 						            @Override
 						            public void run() {
@@ -81,6 +84,19 @@ public class FacebookGameInviteActivity extends Activity{
 						         };
 						         new Thread(runnable).start();
 						}else{
+							JSONObject json  = new JSONObject();
+							Intent resultdata = new Intent();
+							Bundle bundle = new Bundle();
+							bundle.putString("type", "GAME_INVITE");
+							try {
+								json.put("status", "success");
+								json.put("requestId", result.getRequestId());
+								bundle.putString(Keys.JsonData.toString(), json.toString());
+							} catch (JSONException e) {
+								e.printStackTrace();
+							}
+							resultdata.putExtras(bundle);
+							setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
 							finish();
 						}
 			            
@@ -90,22 +106,48 @@ public class FacebookGameInviteActivity extends Activity{
 					@Override
 					public void onCancel() {
 						// TODO Auto-generated method stub
+						JSONObject json  = new JSONObject();
+						Intent resultdata = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("type", "GAME_INVITE");
+						try {
+							json.put("status", "cancel");
+							json.put("requestId", "0");
+							bundle.putString(Keys.JsonData.toString(), json.toString());
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+						resultdata.putExtras(bundle);
+						setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
 						finish();
 					}
 
 					@Override
 					public void onError(FacebookException error) {
 						// TODO Auto-generated method stub
-						
+						JSONObject json  = new JSONObject();
+						Intent resultdata = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("type", "GAME_INVITE");
+						try {
+							json.put("status", "error");
+							json.put("requestId", "-1");
+							bundle.putString(Keys.JsonData.toString(), json.toString());
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+						resultdata.putExtras(bundle);
+						setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
+						finish();
 					}
 			 
 		 });
 		 
 		 
-		 param.putString("pretty", "0");
-		 param.putString("limit", "49");
+		 param.putString("pretty", PRETTY);
+		 param.putString("limit", LIMIT);
 		 param.putString("after", after_page);
-		 param.putString("fields", "id");
+		 param.putString("fields", FIELDS_PARAMS);
 		 //setup a general callback for each graph request sent, this callback will launch the next request if exists.
 		 graphCallback = new GraphRequest.Callback(){
 		     @Override

@@ -14,6 +14,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 
 public class FacebookFriendsInviteActivity extends Activity {
 	final String TAG = "FacebookFriendsInviteActivity";
@@ -27,8 +30,7 @@ public class FacebookFriendsInviteActivity extends Activity {
 		String appLinkUrl = intent.getStringExtra(Keys.AppLinkUrl.toString());
 		String previewImageUrl = intent.getStringExtra(Keys.AppLinkPreviewImageUrl.toString());;
 
-		//appLinkUrl ="https://fb.me/320004664998837";
-		//previewImageUrl = "https://lh3.googleusercontent.com/8yh5cZfJpWbUADdb3zF_XF-zxVFhc7-w7nl1sMMZFdI3UgidVLsDZ7LXeChz5C_X8GQ=w300-rw";
+
 
 		    if (AppInviteDialog.canShow()) {
 		        AppInviteContent content = new AppInviteContent.Builder()
@@ -46,7 +48,19 @@ public class FacebookFriendsInviteActivity extends Activity {
 					@Override
 					public void onError(FacebookException error) {
 						// TODO Auto-generated method stub
-						Log.i(TAG, "error");
+						JSONObject json  = new JSONObject();
+						Intent resultdata = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("type", "GAME_INVITE");
+						try {
+							json.put("status", "error");
+							json.put("code", "-1");
+							bundle.putString(Keys.JsonData.toString(), json.toString());
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+						resultdata.putExtras(bundle);
+						setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
 						finish();
 					}
 
@@ -55,7 +69,19 @@ public class FacebookFriendsInviteActivity extends Activity {
 					@Override
 					public void onSuccess(Result result) {
 						// TODO Auto-generated method stub
-						Log.i(TAG, "result:"+result.toString());
+						JSONObject json  = new JSONObject();
+						Intent resultdata = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("type", "GAME_INVITE");
+						try {
+							json.put("status", "success");
+							json.put("code", "1");
+							bundle.putString(Keys.JsonData.toString(), json.toString());
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+						resultdata.putExtras(bundle);
+						setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
 						finish();
 					}
 
@@ -64,7 +90,19 @@ public class FacebookFriendsInviteActivity extends Activity {
 					@Override
 					public void onCancel() {
 						// TODO Auto-generated method stub
-						Log.i(TAG, "cancel");
+						JSONObject json  = new JSONObject();
+						Intent resultdata = new Intent();
+						Bundle bundle = new Bundle();
+						bundle.putString("type", "GAME_INVITE");
+						try {
+							json.put("status", "cancel");
+							json.put("code", "0");
+							bundle.putString(Keys.JsonData.toString(), json.toString());
+						} catch (JSONException e) {
+							e.printStackTrace();
+						}
+						resultdata.putExtras(bundle);
+						setResult(Activity.RESULT_OK, resultdata); //回傳RESULT_OK
 						finish();
 					}
 		        });
