@@ -69,6 +69,15 @@ public class port extends UnityPlayerActivity
                     String sendUnityStr = statusJson.toString();
                     Log.i("sent to unity payment", unityGameObjName + "," + unityMethod + "," + sendUnityStr);
                     UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, sendUnityStr);
+                }else if(type.equals("SHARE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, value);
+                }else if(type.equals("GAME_INVITE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, value);
+                }else if (type.equals("APP_INVITE")){
+                    String value = bundle.getString(Keys.JsonData.toString());
+                    UnityPlayer.UnitySendMessage(unityGameObjName, unityMethod, value);
                 }
             }
             catch (Exception ex)
@@ -188,34 +197,37 @@ public class port extends UnityPlayerActivity
         UnityPlayer.currentActivity.startActivity(i);
     }
 
-    public static void callFacebookInvite(String UnityGameObj, String appUrl, String preImageUrl  ){
+    public static void callFacebookInvite(String UnityGameObj, String UnityMethod, String appUrl, String preImageUrl  ){
         Log.i("main act", "invite start...");
 
         unityGameObjName = UnityGameObj;
+        unityMethod = UnityMethod;
         String appLinkUrl =appUrl;
         String previewImageUrl = preImageUrl;
         Intent i = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.invite.FacebookFriendsInviteActivity.class);
         i.putExtra(Keys.AppLinkUrl.toString(), appLinkUrl);
         i.putExtra(Keys.AppLinkPreviewImageUrl.toString(), previewImageUrl);
-        UnityPlayer.currentActivity.startActivity(i);
+        UnityPlayer.currentActivity.startActivityForResult(i, 100);
     }
 
-    public static void callFacebookGameInvite(String UnityGameObj, String title, String description ){
+    public static void callFacebookGameInvite(String UnityGameObj, String UnityMethod, String title, String description ){
         Log.i("main act", "game invite start...");
 
         unityGameObjName = UnityGameObj;
+        unityMethod = UnityMethod;
         String shareContentTitle = title;
         String shareContentDescription = description;
         Intent intent = new Intent(UnityPlayer.currentActivity, com.hosengamers.beluga.invite.FacebookGameInviteActivity.class);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
-        UnityPlayer.currentActivity.startActivity(intent);
+        UnityPlayer.currentActivity.startActivityForResult(intent, 100);
     }
 
-    public static void callFacebookShare(String UnityGameObj, String title, String description, String contentUrl, String imageUrl){
+    public static void callFacebookShare(String UnityGameObj, String UnityMethod, String title, String description, String contentUrl, String imageUrl){
         Log.i("main act", "invite start...");
 
         unityGameObjName = UnityGameObj;
+        unityMethod = UnityMethod;
         String shareContentTitle = title;
         String shareContentDescription = description;
         String shareContentUrl = contentUrl;
@@ -225,7 +237,7 @@ public class port extends UnityPlayerActivity
         intent.putExtra(Keys.ShareImageUrl.toString(), shareImageUrl);
         intent.putExtra(Keys.ShareContentDescription.toString(), shareContentDescription);
         intent.putExtra(Keys.ShareContentTitle.toString(), shareContentTitle);
-        UnityPlayer.currentActivity.startActivity(intent);
+        UnityPlayer.currentActivity.startActivityForResult(intent, 100);
 
     }
 }
