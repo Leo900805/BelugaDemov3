@@ -82,6 +82,7 @@ public class MainActivity extends Activity {
                     facebookInfoManager.loadFriendsList();
                     Log.i("List", facebookInfoManager.getFriendsList());
 
+
                        /*
                                          * 测试强验证：
                                          * 将 String 转换成Json

@@ -107,6 +107,15 @@ public class FacebookInfoManager {
 	}
 	public String getFriendsList(){
 		Log.i("getFriendsList","start...");
+		synchronized (FacebookInfoManager.class){
+			try {
+				Log.i("return","wait start...");
+				FacebookInfoManager.class.wait();
+				Log.i("return","wait end...");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
 		return jsonObjectDataList.toString();
 	}
 	public String getFacebokId() {
@@ -122,33 +131,38 @@ public class FacebookInfoManager {
 		graphCallback = new GraphRequest.Callback(){
 			@Override
 			public void onCompleted(GraphResponse response) {
-				try {
-					jsonArrayFriendsList = new JSONArray();
-					jsonObjectDataList = new JSONObject();
-					JSONArray rawName = response.getJSONObject().getJSONArray("data");
-					for (int i = 0; i < rawName.length(); i++) {
-						json_obj = rawName.getJSONObject(i);
-						Log.d("Type", json_obj.toString());
-						jsonArrayFriendsList.put(json_obj);
-					}
-					jsonObjectDataList.put("list", jsonArrayFriendsList);
-					Log.d("Data List", jsonObjectDataList.toString());
+				synchronized (FacebookInfoManager.class) {
+					try {
+						jsonArrayFriendsList = new JSONArray();
+						jsonObjectDataList = new JSONObject();
+						JSONArray rawName = response.getJSONObject().getJSONArray("data");
+						for (int i = 0; i < rawName.length(); i++) {
+							json_obj = rawName.getJSONObject(i);
+							Log.d("Type", json_obj.toString());
+							jsonArrayFriendsList.put(json_obj);
+						}
+						jsonObjectDataList.put("list", jsonArrayFriendsList);
+						Log.d("Data List", jsonObjectDataList.toString());
 
-					nextRequest = response.getRequestForPagedResults(GraphResponse.PagingDirection.NEXT);
-					if(nextRequest != null){
-						JSONObject obj = response.getJSONObject().getJSONObject("paging");
-						JSONObject obj_cursors = obj.optJSONObject("cursors");
-						after_page = obj_cursors.getString("after");
-						Log.i("json after", after_page);
-						hasNextPage = true;
-						Log.i("json after", "hasNextPage is :"+hasNextPage);
-					}else {
-						hasNextPage = false;
-						Log.i("json after", "hasNextPage is :"+hasNextPage);
-					}
+						nextRequest = response.getRequestForPagedResults(GraphResponse.PagingDirection.NEXT);
+						if (nextRequest != null) {
+							JSONObject obj = response.getJSONObject().getJSONObject("paging");
+							JSONObject obj_cursors = obj.optJSONObject("cursors");
+							after_page = obj_cursors.getString("after");
+							Log.i("json after", after_page);
+							hasNextPage = true;
+							Log.i("json after", "hasNextPage is :" + hasNextPage);
+						} else {
+							hasNextPage = false;
+							Log.i("json after", "hasNextPage is :" + hasNextPage);
+							Log.i("json after", "notify start...");
+							FacebookInfoManager.class.notify();
+							Log.i("json after", "notify end	...");
+						}
 
-				} catch (JSONException e) {
-					e.printStackTrace();
+					} catch (JSONException e) {
+						e.printStackTrace();
+					}
 				}
 			}
 		};
@@ -171,12 +185,17 @@ public class FacebookInfoManager {
 		};
 		new Thread(runnable).start();
 
-		//delay 1 second wait thread finish
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		/*
+		synchronized (FacebookInfoManager.class){
+			try {
+				Log.i("return","wait start...");
+				FacebookInfoManager.class.wait();
+				Log.i("return","wait end...");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-
+		return jsonObjectDataList.toString();
+		*/
 	}
 }
