@@ -84,6 +84,11 @@
             android:text="Faceboook Game Invite"
             android:onClick="callFacebookGameInvite"/>
 
+        <com.facebook.share.widget.LikeView
+            android:id="@+id/likeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
     </LinearLayout>
 
 </RelativeLayout>

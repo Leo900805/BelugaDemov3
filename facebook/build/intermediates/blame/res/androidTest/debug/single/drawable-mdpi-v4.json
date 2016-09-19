@@ -20,12 +20,12 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\messenger_bubble_large_white.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_button_icon.png",

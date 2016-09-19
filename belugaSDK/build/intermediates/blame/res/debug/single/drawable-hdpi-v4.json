@@ -212,12 +212,12 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\w_qregis.png",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\drawable-hdpi\\w_qregis.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\w_qregis.png",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\drawable-hdpi\\w_qregis.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\q_sign_up_circle_bg.xml",

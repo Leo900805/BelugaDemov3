@@ -180,12 +180,12 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xxhdpi-v4\\messenger_bubble_large_white.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-xxhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\facebook\\unspecified\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",

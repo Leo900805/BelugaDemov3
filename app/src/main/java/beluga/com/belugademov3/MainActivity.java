@@ -32,6 +32,9 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
+import com.facebook.AccessToken;
+import com.facebook.FacebookSdk;
+import com.facebook.share.widget.LikeView;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -42,7 +45,7 @@ import com.hosengamers.beluga.payment.iab.InAppBillingActivity;
 import com.hosengamers.beluga.payment.mol.MOLActivity;
 import com.hosengamers.beluga.payment.mycard.MyCardActivity;
 import com.hosengamers.beluga.belugakeys.Keys;
-import com.hosengamers.beluga.share.FacebookShare;;
+import com.hosengamers.beluga.share.FacebookShare;;import bolts.AppLinks;
 
 
 @SuppressWarnings("deprecation")
@@ -78,9 +81,13 @@ public class MainActivity extends Activity {
                     String jsonData = bundle.getString(Keys.JsonData.toString());
                     v.setText("Login info :\nLogin Json Data:" + jsonData);
 
-                    FacebookInfoManager facebookInfoManager = new FacebookInfoManager();
-                    facebookInfoManager.loadFriendsList();
-                    Log.i("List", facebookInfoManager.getFriendsList());
+                    Log.i("fb login ", "status :"+ (AccessToken.getCurrentAccessToken()!=null) );
+                    if (AccessToken.getCurrentAccessToken() != null){
+                        FacebookInfoManager facebookInfoManager = new FacebookInfoManager();
+                        facebookInfoManager.loadFriendsList();
+                        Log.i("List", facebookInfoManager.getFriendsList());
+                    }
+
 
 
                        /*
@@ -137,8 +144,21 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+
         setContentView(R.layout.activity_main);
 
+        Uri targetUrl =
+                AppLinks.getTargetUrlFromInboundIntent(this, getIntent());
+        Log.i("Activity", "App Link Target status: " + (targetUrl != null));
+        if (targetUrl != null) {
+            Log.i("Activity", "App Link Target URL: " + targetUrl.toString());
+        }
+        LikeView likeView = (LikeView) findViewById(R.id.likeView);
+        likeView.setObjectIdAndType(
+                "https://www.facebook.com/DarkChessworld/",
+                LikeView.ObjectType.PAGE);
 
         try {
             Log.d("KeyHash:", "start...");
@@ -311,7 +331,7 @@ public class MainActivity extends Activity {
     public void callFacebookInvite(View v) {
         Log.i("main act", "invite start...");
 
-        String appLinkUrl = "https://fb.me/320004664998837";
+        String appLinkUrl = "https://fb.me/1766547930283000";
         String previewImageUrl = "https://lh3.googleusercontent.com/8yh5cZfJpWbUADdb3zF_XF-zxVFhc7-w7nl1sMMZFdI3UgidVLsDZ7LXeChz5C_X8GQ=w300-rw";
         Intent i = new Intent(this, FacebookFriendsInviteActivity.class);
         i.putExtra(Keys.AppLinkUrl.toString(), appLinkUrl);
