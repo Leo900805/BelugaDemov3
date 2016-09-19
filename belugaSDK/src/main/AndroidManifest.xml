@@ -134,6 +134,11 @@
             android:configChanges="orientation"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
+
+        <!-- Google Mobile Ads Activity -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
         
     </application>
     
