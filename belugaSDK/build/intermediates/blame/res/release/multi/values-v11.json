@@ -7,9 +7,28 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endLine": 4,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\values-v11\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 45,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endLine": 5,
                     "endColumn": 12,
-                    "endOffset": 187
+                    "endOffset": 233
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\values-v11\\styles.xml",
@@ -25,11 +44,358 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 192,
+                    "startOffset": 238,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1077
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1082,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1505
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1510,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1931
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1936,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2358
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1753,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2363,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2783
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2180,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2788,
+                    "endColumn": 88,
+                    "endOffset": 2872
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2605,
+                        "endColumn": 88,
+                        "endOffset": 2689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2877,
+                    "endColumn": 100,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endColumn": 100,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3381
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 3198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3386,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3801
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3203,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 3618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3806,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 3908
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3623,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 3725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3913,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4037
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3730,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4042,
+                    "endColumn": 70,
+                    "endOffset": 4108
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3859,
+                        "endColumn": 70,
+                        "endOffset": 3925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4113,
+                    "endColumn": 82,
+                    "endOffset": 4191
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3930,
+                        "endColumn": 82,
+                        "endOffset": 4008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4196,
+                    "endLine": 110,
+                    "endColumn": 12,
+                    "endOffset": 7899
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4013,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 7716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 7904,
+                    "endLine": 162,
+                    "endColumn": 12,
+                    "endOffset": 11747
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 7721,
+                        "endLine": 158,
+                        "endColumn": 12,
+                        "endOffset": 11564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11752,
+                    "endColumn": 90,
+                    "endOffset": 11838
+                },
+                "from": {
+                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 11569,
+                        "endColumn": 90,
+                        "endOffset": 11655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 11843,
                     "endColumn": 117,
-                    "endOffset": 305
+                    "endOffset": 11956
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-v11\\values-v11.xml",

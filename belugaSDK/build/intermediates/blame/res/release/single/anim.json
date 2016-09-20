@@ -1,15 +1,15 @@
 [
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_selected_move_left_effect.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_left_effect.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide2.xml",
@@ -20,16 +20,24 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_selected_move_right_effect.xml"
     },
     {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show2.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show2.xml"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_rotae_hide.xml",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_rotae_hide.xml"
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale__landscape_show.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale__landscape_show.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anin_rotate_show.xml",
@@ -40,7 +48,71 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\fab_label_anim.xml"
     },
     {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\sb__in.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\anim\\sb__in.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_in.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_show.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_show.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_scale_hide.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_scale_hide.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\design_fab_out.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_rotae_hide.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_rotae_hide.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\sb__out.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.6.1\\res\\anim\\sb__out.xml"
+    },
+    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\anim_translate_show.xml",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\src\\main\\res\\anim\\anim_translate_show.xml"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\anim\\abc_popup_enter.xml"
     }
 ]
