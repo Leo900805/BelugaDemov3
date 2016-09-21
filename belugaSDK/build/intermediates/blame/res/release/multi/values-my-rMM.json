@@ -1,375 +1,14 @@
 [
     {
-        "outputFile": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\values-my-rMM\\values-my-rMM.xml",
+        "outputFile": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 108,
-                    "endOffset": 209
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 108,
-                        "endOffset": 159
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 214,
-                    "endColumn": 107,
-                    "endOffset": 317
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 164,
-                        "endColumn": 107,
-                        "endOffset": 267
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 322,
-                    "endColumn": 124,
-                    "endOffset": 442
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 272,
-                        "endColumn": 124,
-                        "endOffset": 392
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 447,
-                    "endColumn": 104,
-                    "endOffset": 547
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 397,
-                        "endColumn": 104,
-                        "endOffset": 497
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 552,
-                    "endColumn": 116,
-                    "endOffset": 664
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 502,
-                        "endColumn": 116,
-                        "endOffset": 614
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 669,
-                    "endColumn": 92,
-                    "endOffset": 757
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 619,
-                        "endColumn": 92,
-                        "endOffset": 707
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 762,
-                    "endColumn": 111,
-                    "endOffset": 869
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 712,
-                        "endColumn": 111,
-                        "endOffset": 819
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 874,
-                    "endColumn": 135,
-                    "endOffset": 1005
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 824,
-                        "endColumn": 135,
-                        "endOffset": 955
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 1010,
-                    "endColumn": 77,
-                    "endOffset": 1083
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 960,
-                        "endColumn": 77,
-                        "endOffset": 1033
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1088,
-                    "endColumn": 78,
-                    "endOffset": 1162
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1038,
-                        "endColumn": 78,
-                        "endOffset": 1112
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1167,
-                    "endColumn": 85,
-                    "endOffset": 1248
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1117,
-                        "endColumn": 85,
-                        "endOffset": 1198
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1253,
-                    "endColumn": 124,
-                    "endOffset": 1373
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1203,
-                        "endColumn": 124,
-                        "endOffset": 1323
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1378,
-                    "endColumn": 111,
-                    "endOffset": 1485
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1328,
-                        "endColumn": 111,
-                        "endOffset": 1435
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1490,
-                    "endColumn": 101,
-                    "endOffset": 1587
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1440,
-                        "endColumn": 101,
-                        "endOffset": 1537
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1592,
-                    "endColumn": 125,
-                    "endOffset": 1713
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1542,
-                        "endColumn": 125,
-                        "endOffset": 1663
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1718,
-                    "endColumn": 110,
-                    "endOffset": 1824
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1668,
-                        "endColumn": 110,
-                        "endOffset": 1774
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1829,
-                    "endColumn": 109,
-                    "endOffset": 1934
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1779,
-                        "endColumn": 109,
-                        "endOffset": 1884
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1939,
-                    "endColumn": 122,
-                    "endOffset": 2057
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1889,
-                        "endColumn": 122,
-                        "endOffset": 2007
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 2062,
-                    "endColumn": 99,
-                    "endOffset": 2157
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2012,
-                        "endColumn": 99,
-                        "endOffset": 2107
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2162,
                     "endColumn": 277,
-                    "endOffset": 2435
+                    "endOffset": 378
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -384,11 +23,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 2440,
+                    "startOffset": 383,
                     "endColumn": 135,
-                    "endOffset": 2571
+                    "endOffset": 514
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -403,11 +42,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 2576,
+                    "startOffset": 519,
                     "endColumn": 195,
-                    "endOffset": 2767
+                    "endOffset": 710
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -422,11 +61,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 2772,
+                    "startOffset": 715,
                     "endColumn": 135,
-                    "endOffset": 2903
+                    "endOffset": 846
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -441,11 +80,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 2908,
+                    "startOffset": 851,
                     "endColumn": 137,
-                    "endOffset": 3041
+                    "endOffset": 984
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -460,11 +99,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 3046,
+                    "startOffset": 989,
                     "endColumn": 209,
-                    "endOffset": 3251
+                    "endOffset": 1194
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -479,11 +118,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 3256,
+                    "startOffset": 1199,
                     "endColumn": 212,
-                    "endOffset": 3464
+                    "endOffset": 1407
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -498,11 +137,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 3469,
+                    "startOffset": 1412,
                     "endColumn": 133,
-                    "endOffset": 3598
+                    "endOffset": 1541
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -517,11 +156,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 3603,
+                    "startOffset": 1546,
                     "endColumn": 178,
-                    "endOffset": 3777
+                    "endOffset": 1720
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -536,11 +175,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 3782,
+                    "startOffset": 1725,
                     "endColumn": 124,
-                    "endOffset": 3902
+                    "endOffset": 1845
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -555,11 +194,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 3907,
+                    "startOffset": 1850,
                     "endColumn": 174,
-                    "endOffset": 4077
+                    "endOffset": 2020
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -574,11 +213,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 4082,
+                    "startOffset": 2025,
                     "endColumn": 129,
-                    "endOffset": 4207
+                    "endOffset": 2150
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -593,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 4212,
+                    "startOffset": 2155,
                     "endColumn": 144,
-                    "endOffset": 4352
+                    "endOffset": 2295
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -612,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 4357,
+                    "startOffset": 2300,
                     "endColumn": 178,
-                    "endOffset": 4531
+                    "endOffset": 2474
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -631,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 4536,
+                    "startOffset": 2479,
                     "endColumn": 147,
-                    "endOffset": 4679
+                    "endOffset": 2622
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -650,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 4684,
+                    "startOffset": 2627,
                     "endColumn": 185,
-                    "endOffset": 4865
+                    "endOffset": 2808
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -669,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 4870,
+                    "startOffset": 2813,
                     "endColumn": 133,
-                    "endOffset": 4999
+                    "endOffset": 2942
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -688,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 5004,
+                    "startOffset": 2947,
                     "endColumn": 251,
-                    "endOffset": 5251
+                    "endOffset": 3194
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -707,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 5256,
+                    "startOffset": 3199,
                     "endColumn": 257,
-                    "endOffset": 5509
+                    "endOffset": 3452
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -726,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 5514,
+                    "startOffset": 3457,
                     "endColumn": 130,
-                    "endOffset": 5640
+                    "endOffset": 3583
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -745,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 5645,
+                    "startOffset": 3588,
                     "endColumn": 107,
-                    "endOffset": 5748
+                    "endOffset": 3691
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -764,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 5753,
+                    "startOffset": 3696,
                     "endColumn": 202,
-                    "endOffset": 5951
+                    "endOffset": 3894
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -783,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 5956,
+                    "startOffset": 3899,
                     "endColumn": 144,
-                    "endOffset": 6096
+                    "endOffset": 4039
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -802,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 6101,
+                    "startOffset": 4044,
                     "endColumn": 216,
-                    "endOffset": 6313
+                    "endOffset": 4256
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -821,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 6318,
+                    "startOffset": 4261,
                     "endColumn": 148,
-                    "endOffset": 6462
+                    "endOffset": 4405
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -840,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 6467,
+                    "startOffset": 4410,
                     "endColumn": 216,
-                    "endOffset": 6679
+                    "endOffset": 4622
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -859,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 6684,
+                    "startOffset": 4627,
                     "endColumn": 98,
-                    "endOffset": 6778
+                    "endOffset": 4721
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -878,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 6783,
+                    "startOffset": 4726,
                     "endColumn": 102,
-                    "endOffset": 6881
+                    "endOffset": 4824
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -897,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 6886,
+                    "startOffset": 4829,
                     "endColumn": 118,
-                    "endOffset": 7000
+                    "endOffset": 4943
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -916,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 7005,
+                    "startOffset": 4948,
                     "endColumn": 110,
-                    "endOffset": 7111
+                    "endOffset": 5054
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -935,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 7116,
+                    "startOffset": 5059,
                     "endColumn": 98,
-                    "endOffset": 7210
+                    "endOffset": 5153
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-my-rMM\\values-my-rMM.xml",
@@ -949,25 +588,6 @@
                         "startOffset": 5059,
                         "endColumn": 98,
                         "endOffset": 5153
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 52,
-                    "startColumn": 4,
-                    "startOffset": 7215,
-                    "endColumn": 100,
-                    "endOffset": 7311
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-my-rMM\\values-my-rMM.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2112,
-                        "endColumn": 100,
-                        "endOffset": 2208
                     }
                 }
             }

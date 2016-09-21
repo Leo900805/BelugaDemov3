@@ -1,375 +1,14 @@
 [
     {
-        "outputFile": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\values-ml-rIN\\values-ml-rIN.xml",
+        "outputFile": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ml-rIN\\values-ml-rIN.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 118,
-                    "endOffset": 219
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 118,
-                        "endOffset": 169
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 224,
-                    "endColumn": 107,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 174,
-                        "endColumn": 107,
-                        "endOffset": 277
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 332,
-                    "endColumn": 122,
-                    "endOffset": 450
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 282,
-                        "endColumn": 122,
-                        "endOffset": 400
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 455,
-                    "endColumn": 117,
-                    "endOffset": 568
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 405,
-                        "endColumn": 117,
-                        "endOffset": 518
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 573,
-                    "endColumn": 115,
-                    "endOffset": 684
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 523,
-                        "endColumn": 115,
-                        "endOffset": 634
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 689,
-                    "endColumn": 92,
-                    "endOffset": 777
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 639,
-                        "endColumn": 92,
-                        "endOffset": 727
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 782,
-                    "endColumn": 104,
-                    "endOffset": 882
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 732,
-                        "endColumn": 104,
-                        "endOffset": 832
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 887,
-                    "endColumn": 131,
-                    "endOffset": 1014
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 837,
-                        "endColumn": 131,
-                        "endOffset": 964
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 1019,
-                    "endColumn": 76,
-                    "endOffset": 1091
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 969,
-                        "endColumn": 76,
-                        "endOffset": 1041
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1096,
-                    "endColumn": 75,
-                    "endOffset": 1167
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1046,
-                        "endColumn": 75,
-                        "endOffset": 1117
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1172,
-                    "endColumn": 81,
-                    "endOffset": 1249
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1122,
-                        "endColumn": 81,
-                        "endOffset": 1199
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1254,
-                    "endColumn": 110,
-                    "endOffset": 1360
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1204,
-                        "endColumn": 110,
-                        "endOffset": 1310
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1365,
-                    "endColumn": 105,
-                    "endOffset": 1466
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1315,
-                        "endColumn": 105,
-                        "endOffset": 1416
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1471,
-                    "endColumn": 97,
-                    "endOffset": 1564
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1421,
-                        "endColumn": 97,
-                        "endOffset": 1514
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1569,
-                    "endColumn": 113,
-                    "endOffset": 1678
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1519,
-                        "endColumn": 113,
-                        "endOffset": 1628
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1683,
-                    "endColumn": 100,
-                    "endOffset": 1779
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1633,
-                        "endColumn": 100,
-                        "endOffset": 1729
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1784,
-                    "endColumn": 110,
-                    "endOffset": 1890
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1734,
-                        "endColumn": 110,
-                        "endOffset": 1840
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1895,
-                    "endColumn": 127,
-                    "endOffset": 2018
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1845,
-                        "endColumn": 127,
-                        "endOffset": 1968
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 2023,
-                    "endColumn": 100,
-                    "endOffset": 2119
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1973,
-                        "endColumn": 100,
-                        "endOffset": 2069
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2124,
                     "endColumn": 254,
-                    "endOffset": 2374
+                    "endOffset": 355
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -384,11 +23,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 2379,
+                    "startOffset": 360,
                     "endColumn": 141,
-                    "endOffset": 2516
+                    "endOffset": 497
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -403,11 +42,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 2521,
+                    "startOffset": 502,
                     "endColumn": 210,
-                    "endOffset": 2727
+                    "endOffset": 708
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -422,11 +61,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 2732,
+                    "startOffset": 713,
                     "endColumn": 140,
-                    "endOffset": 2868
+                    "endOffset": 849
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -441,11 +80,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 2873,
+                    "startOffset": 854,
                     "endColumn": 134,
-                    "endOffset": 3003
+                    "endOffset": 984
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -460,11 +99,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 3008,
+                    "startOffset": 989,
                     "endColumn": 218,
-                    "endOffset": 3222
+                    "endOffset": 1203
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -479,11 +118,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 3227,
+                    "startOffset": 1208,
                     "endColumn": 236,
-                    "endOffset": 3459
+                    "endOffset": 1440
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -498,11 +137,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 3464,
+                    "startOffset": 1445,
                     "endColumn": 126,
-                    "endOffset": 3586
+                    "endOffset": 1567
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -517,11 +156,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 3591,
+                    "startOffset": 1572,
                     "endColumn": 189,
-                    "endOffset": 3776
+                    "endOffset": 1757
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -536,11 +175,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 3781,
+                    "startOffset": 1762,
                     "endColumn": 124,
-                    "endOffset": 3901
+                    "endOffset": 1882
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -555,11 +194,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 3906,
+                    "startOffset": 1887,
                     "endColumn": 184,
-                    "endOffset": 4086
+                    "endOffset": 2067
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -574,11 +213,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 4091,
+                    "startOffset": 2072,
                     "endColumn": 125,
-                    "endOffset": 4212
+                    "endOffset": 2193
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -593,11 +232,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 4217,
+                    "startOffset": 2198,
                     "endColumn": 135,
-                    "endOffset": 4348
+                    "endOffset": 2329
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -612,11 +251,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 4353,
+                    "startOffset": 2334,
                     "endColumn": 187,
-                    "endOffset": 4536
+                    "endOffset": 2517
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -631,11 +270,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 4541,
+                    "startOffset": 2522,
                     "endColumn": 129,
-                    "endOffset": 4666
+                    "endOffset": 2647
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -650,11 +289,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 4671,
+                    "startOffset": 2652,
                     "endColumn": 187,
-                    "endOffset": 4854
+                    "endOffset": 2835
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -669,11 +308,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 4859,
+                    "startOffset": 2840,
                     "endColumn": 127,
-                    "endOffset": 4982
+                    "endOffset": 2963
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -688,11 +327,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 4987,
+                    "startOffset": 2968,
                     "endColumn": 269,
-                    "endOffset": 5252
+                    "endOffset": 3233
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -707,11 +346,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 5257,
+                    "startOffset": 3238,
                     "endColumn": 253,
-                    "endOffset": 5506
+                    "endOffset": 3487
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -726,11 +365,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 5511,
+                    "startOffset": 3492,
                     "endColumn": 123,
-                    "endOffset": 5630
+                    "endOffset": 3611
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -745,11 +384,11 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 5635,
+                    "startOffset": 3616,
                     "endColumn": 117,
-                    "endOffset": 5748
+                    "endOffset": 3729
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -764,11 +403,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 5753,
+                    "startOffset": 3734,
                     "endColumn": 204,
-                    "endOffset": 5953
+                    "endOffset": 3934
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -783,11 +422,11 @@
             },
             {
                 "to": {
-                    "startLine": 43,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 5958,
+                    "startOffset": 3939,
                     "endColumn": 137,
-                    "endOffset": 6091
+                    "endOffset": 4072
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -802,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 44,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 6096,
+                    "startOffset": 4077,
                     "endColumn": 207,
-                    "endOffset": 6299
+                    "endOffset": 4280
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -821,11 +460,11 @@
             },
             {
                 "to": {
-                    "startLine": 45,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 6304,
+                    "startOffset": 4285,
                     "endColumn": 143,
-                    "endOffset": 6443
+                    "endOffset": 4424
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -840,11 +479,11 @@
             },
             {
                 "to": {
-                    "startLine": 46,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 6448,
+                    "startOffset": 4429,
                     "endColumn": 190,
-                    "endOffset": 6634
+                    "endOffset": 4615
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -859,11 +498,11 @@
             },
             {
                 "to": {
-                    "startLine": 47,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 6639,
+                    "startOffset": 4620,
                     "endColumn": 92,
-                    "endOffset": 6727
+                    "endOffset": 4708
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -878,11 +517,11 @@
             },
             {
                 "to": {
-                    "startLine": 48,
+                    "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 6732,
+                    "startOffset": 4713,
                     "endColumn": 98,
-                    "endOffset": 6826
+                    "endOffset": 4807
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -897,11 +536,11 @@
             },
             {
                 "to": {
-                    "startLine": 49,
+                    "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 6831,
+                    "startOffset": 4812,
                     "endColumn": 121,
-                    "endOffset": 6948
+                    "endOffset": 4929
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -916,11 +555,11 @@
             },
             {
                 "to": {
-                    "startLine": 50,
+                    "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 6953,
+                    "startOffset": 4934,
                     "endColumn": 111,
-                    "endOffset": 7060
+                    "endOffset": 5041
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -935,11 +574,11 @@
             },
             {
                 "to": {
-                    "startLine": 51,
+                    "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 7065,
+                    "startOffset": 5046,
                     "endColumn": 95,
-                    "endOffset": 7156
+                    "endOffset": 5137
                 },
                 "from": {
                     "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\values-ml-rIN\\values-ml-rIN.xml",
@@ -949,25 +588,6 @@
                         "startOffset": 5046,
                         "endColumn": 95,
                         "endOffset": 5137
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 52,
-                    "startColumn": 4,
-                    "startOffset": 7161,
-                    "endColumn": 100,
-                    "endOffset": 7257
-                },
-                "from": {
-                    "file": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\values-ml-rIN\\values-ml-rIN.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2074,
-                        "endColumn": 100,
-                        "endOffset": 2170
                     }
                 }
             }

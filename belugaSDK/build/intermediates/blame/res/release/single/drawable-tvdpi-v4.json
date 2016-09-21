@@ -1,11 +1,11 @@
 [
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\exploded-aar\\BelugaDemov3\\google-play-services_lib\\unspecified\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\belugaSDK\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",

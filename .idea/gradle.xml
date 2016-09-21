@@ -16,16 +16,7 @@
             <option value="$PROJECT_DIR$/unityandroidport" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/belugaSDK" />
-            <option value="$PROJECT_DIR$/facebook" />
-            <option value="$PROJECT_DIR$/google-play-services_lib" />
-            <option value="$PROJECT_DIR$/unityandroidport" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

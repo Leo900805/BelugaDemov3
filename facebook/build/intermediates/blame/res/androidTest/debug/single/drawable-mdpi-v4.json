@@ -68,11 +68,11 @@
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
     {
-        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
-        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
-    },
-    {
         "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
         "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "G:\\Users\\deskuser\\AndroidStudioProjects\\BelugaDemov3\\facebook\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png"
     }
 ]

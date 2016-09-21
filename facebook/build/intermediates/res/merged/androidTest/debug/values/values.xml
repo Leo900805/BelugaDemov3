@@ -13,9 +13,34 @@
     <color name="com_facebook_likeboxcountview_text_color">#6a7180</color>
     <color name="com_facebook_likeview_text_color">#6a7180</color>
     <color name="com_facebook_share_button_text_color">#FFFFFF</color>
-    <declare-styleable name="com_facebook_like_view"><attr format="color" name="foreground_color"/><attr format="string" name="object_id"/><attr name="object_type"><enum name="unknown" value="0"/><enum name="open_graph" value="1"/><enum name="page" value="2"/></attr><attr name="style"><enum name="standard" value="0"/><enum name="button" value="1"/><enum name="box_count" value="2"/></attr><attr name="auxiliary_view_position"><enum name="bottom" value="0"/><enum name="inline" value="1"/><enum name="top" value="2"/></attr><attr name="horizontal_alignment"><enum name="center" value="0"/><enum name="left" value="1"/><enum name="right" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_like_view"><attr format="color" name="foreground_color"/><attr format="string" name="object_id"/><attr name="object_type">
+            
+            <enum name="unknown" value="0"/>
+            <enum name="open_graph" value="1"/>
+            <enum name="page" value="2"/>
+        </attr><attr name="style">
+            
+            <enum name="standard" value="0"/>
+            <enum name="button" value="1"/>
+            <enum name="box_count" value="2"/>
+        </attr><attr name="auxiliary_view_position">
+            
+            <enum name="bottom" value="0"/>
+            <enum name="inline" value="1"/>
+            <enum name="top" value="2"/>
+        </attr><attr name="horizontal_alignment">
+            
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr></declare-styleable>
     <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
-    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size">
+            
+            <enum name="small" value="-2"/>
+            <enum name="normal" value="-3"/>
+            <enum name="large" value="-4"/>
+        </attr><attr format="boolean" name="is_cropped"/></declare-styleable>
     <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
     <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
     <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
